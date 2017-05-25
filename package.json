@@ -1,0 +1,29 @@
+{
+  "name": "play-music-dash",
+  "version": "1.0.0",
+  "description": "Play your favourite song when your Amazon Dash Button is pressed.",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shoichiaizawa/play-music-dash.git"
+  },
+  "keywords": [
+    "amazon",
+    "dash",
+    "button"
+  ],
+  "scripts": {
+    "scan": "node_modules/node-dash-button/bin/findbutton",
+    "start": "node app.js"
+  },
+  "author": "Shoichi Aizawa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shoichiaizawa/play-music-dash/issues"
+  },
+  "homepage": "https://github.com/shoichiaizawa/play-music-dash#readme",
+  "dependencies": {
+    "node-dash-button": "^0.6.1",
+    "simplayer": "0.0.8"
+  }
+}
